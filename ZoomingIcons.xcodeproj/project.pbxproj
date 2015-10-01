@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAFA68441BBDA812009BD1BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA68431BBDA812009BD1BD /* AppDelegate.swift */; };
+		AAFA68461BBDA812009BD1BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA68451BBDA812009BD1BD /* ViewController.swift */; };
+		AAFA68491BBDA812009BD1BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFA68471BBDA812009BD1BD /* Main.storyboard */; };
+		AAFA684B1BBDA812009BD1BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFA684A1BBDA812009BD1BD /* Assets.xcassets */; };
+		AAFA684E1BBDA812009BD1BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFA684C1BBDA812009BD1BD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAFA68401BBDA812009BD1BD /* ZoomingIcons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomingIcons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFA68431BBDA812009BD1BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAFA68451BBDA812009BD1BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAFA68481BBDA812009BD1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAFA684A1BBDA812009BD1BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAFA684D1BBDA812009BD1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAFA684F1BBDA812009BD1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAFA683D1BBDA812009BD1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAFA68371BBDA812009BD1BD = {
+			isa = PBXGroup;
+			children = (
+				AAFA68421BBDA812009BD1BD /* ZoomingIcons */,
+				AAFA68411BBDA812009BD1BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAFA68411BBDA812009BD1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA68401BBDA812009BD1BD /* ZoomingIcons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAFA68421BBDA812009BD1BD /* ZoomingIcons */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA68431BBDA812009BD1BD /* AppDelegate.swift */,
+				AAFA68451BBDA812009BD1BD /* ViewController.swift */,
+				AAFA68471BBDA812009BD1BD /* Main.storyboard */,
+				AAFA684A1BBDA812009BD1BD /* Assets.xcassets */,
+				AAFA684C1BBDA812009BD1BD /* LaunchScreen.storyboard */,
+				AAFA684F1BBDA812009BD1BD /* Info.plist */,
+			);
+			path = ZoomingIcons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAFA683F1BBDA812009BD1BD /* ZoomingIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFA68521BBDA812009BD1BD /* Build configuration list for PBXNativeTarget "ZoomingIcons" */;
+			buildPhases = (
+				AAFA683C1BBDA812009BD1BD /* Sources */,
+				AAFA683D1BBDA812009BD1BD /* Frameworks */,
+				AAFA683E1BBDA812009BD1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomingIcons;
+			productName = ZoomingIcons;
+			productReference = AAFA68401BBDA812009BD1BD /* ZoomingIcons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAFA68381BBDA812009BD1BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = KatieExpatriated;
+				TargetAttributes = {
+					AAFA683F1BBDA812009BD1BD = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = AAFA683B1BBDA812009BD1BD /* Build configuration list for PBXProject "ZoomingIcons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAFA68371BBDA812009BD1BD;
+			productRefGroup = AAFA68411BBDA812009BD1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFA683F1BBDA812009BD1BD /* ZoomingIcons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAFA683E1BBDA812009BD1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFA684E1BBDA812009BD1BD /* LaunchScreen.storyboard in Resources */,
+				AAFA684B1BBDA812009BD1BD /* Assets.xcassets in Resources */,
+				AAFA68491BBDA812009BD1BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAFA683C1BBDA812009BD1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFA68461BBDA812009BD1BD /* ViewController.swift in Sources */,
+				AAFA68441BBDA812009BD1BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAFA68471BBDA812009BD1BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFA68481BBDA812009BD1BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAFA684C1BBDA812009BD1BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFA684D1BBDA812009BD1BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAFA68501BBDA812009BD1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAFA68511BBDA812009BD1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAFA68531BBDA812009BD1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZoomingIcons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.katieexpatriated.ZoomingIcons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAFA68541BBDA812009BD1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZoomingIcons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.katieexpatriated.ZoomingIcons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAFA683B1BBDA812009BD1BD /* Build configuration list for PBXProject "ZoomingIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFA68501BBDA812009BD1BD /* Debug */,
+				AAFA68511BBDA812009BD1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFA68521BBDA812009BD1BD /* Build configuration list for PBXNativeTarget "ZoomingIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFA68531BBDA812009BD1BD /* Debug */,
+				AAFA68541BBDA812009BD1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAFA68381BBDA812009BD1BD /* Project object */;
+}
