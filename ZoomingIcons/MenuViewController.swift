@@ -57,12 +57,23 @@ class MenuViewController: UICollectionViewController {
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath)
     
-        // Configure the cell
-    
         return cell
     }
+    
+    
 
     // MARK: UICollectionViewDelegate
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -> UIEdgeInsets {
+        let layout = collectionViewLayout as! UICollectionViewFlowLayout
+        
+        let numberOfCells = self.collectionView(collectionView, numberOfItemsInSection: section)
+        let widthOfCells = CGFloat(numberOfCells) * layout.itemSize.width + CGFloat(numberOfCells-1) * layout.minimumInteritemSpacing
+        
+        let inset = (collectionView.bounds.width - widthOfCells) / 2.0
+        
+        return UIEdgeInsets(top: 40, left: inset, bottom: 0, right: inset)
+    }
 
     /*
     // Uncomment this method to specify if the specified item should be highlighted during tracking
