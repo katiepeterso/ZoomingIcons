@@ -13,6 +13,8 @@
 		AAFA684B1BBDA812009BD1BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFA684A1BBDA812009BD1BD /* Assets.xcassets */; };
 		AAFA684E1BBDA812009BD1BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFA684C1BBDA812009BD1BD /* LaunchScreen.storyboard */; };
 		AAFA68561BBDA9E0009BD1BD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA68551BBDA9E0009BD1BD /* MenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		AAFA68581BBDB290009BD1BD /* SocialItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA68571BBDB290009BD1BD /* SocialItemCell.swift */; settings = {ASSET_TAGS = (); }; };
+		AAFA685A1BBDB4C7009BD1BD /* SocialItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA68591BBDB4C7009BD1BD /* SocialItem.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AAFA684D1BBDA812009BD1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAFA684F1BBDA812009BD1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAFA68551BBDA9E0009BD1BD /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		AAFA68571BBDB290009BD1BD /* SocialItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialItemCell.swift; sourceTree = "<group>"; };
+		AAFA68591BBDB4C7009BD1BD /* SocialItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				AAFA68431BBDA812009BD1BD /* AppDelegate.swift */,
 				AAFA68551BBDA9E0009BD1BD /* MenuViewController.swift */,
 				AAFA68451BBDA812009BD1BD /* ViewController.swift */,
+				AAFA68571BBDB290009BD1BD /* SocialItemCell.swift */,
+				AAFA68591BBDB4C7009BD1BD /* SocialItem.swift */,
 				AAFA68471BBDA812009BD1BD /* Main.storyboard */,
 				AAFA684A1BBDA812009BD1BD /* Assets.xcassets */,
 				AAFA684C1BBDA812009BD1BD /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFA685A1BBDB4C7009BD1BD /* SocialItem.swift in Sources */,
 				AAFA68461BBDA812009BD1BD /* ViewController.swift in Sources */,
+				AAFA68581BBDB290009BD1BD /* SocialItemCell.swift in Sources */,
 				AAFA68561BBDA9E0009BD1BD /* MenuViewController.swift in Sources */,
 				AAFA68441BBDA812009BD1BD /* AppDelegate.swift in Sources */,
 			);
