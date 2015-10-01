@@ -38,7 +38,7 @@ class DetailViewController: UIViewController {
     }
 
     @IBAction func backToMenu(sender: UIButton) {
-        dismissViewControllerAnimated(true, completion: nil)
+        navigationController?.popViewControllerAnimated(true)
     }
 
 }

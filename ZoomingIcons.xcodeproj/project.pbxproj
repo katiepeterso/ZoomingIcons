@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA02BD671BBDDFC9001B9C17 /* ZoomingIconTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA02BD661BBDDFC9001B9C17 /* ZoomingIconTransition.swift */; settings = {ASSET_TAGS = (); }; };
 		AAFA68441BBDA812009BD1BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA68431BBDA812009BD1BD /* AppDelegate.swift */; };
 		AAFA68461BBDA812009BD1BD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA68451BBDA812009BD1BD /* DetailViewController.swift */; };
 		AAFA68491BBDA812009BD1BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFA68471BBDA812009BD1BD /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA02BD661BBDDFC9001B9C17 /* ZoomingIconTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomingIconTransition.swift; sourceTree = "<group>"; };
 		AAFA68401BBDA812009BD1BD /* ZoomingIcons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomingIcons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFA68431BBDA812009BD1BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAFA68451BBDA812009BD1BD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				AAFA68551BBDA9E0009BD1BD /* MenuViewController.swift */,
 				AAFA68451BBDA812009BD1BD /* DetailViewController.swift */,
 				AAFA68571BBDB290009BD1BD /* SocialItemCell.swift */,
+				AA02BD661BBDDFC9001B9C17 /* ZoomingIconTransition.swift */,
 				AAFA68591BBDB4C7009BD1BD /* SocialItem.swift */,
 				AAFA68471BBDA812009BD1BD /* Main.storyboard */,
 				AAFA684A1BBDA812009BD1BD /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAFA685A1BBDB4C7009BD1BD /* SocialItem.swift in Sources */,
+				AA02BD671BBDDFC9001B9C17 /* ZoomingIconTransition.swift in Sources */,
 				AAFA68461BBDA812009BD1BD /* DetailViewController.swift in Sources */,
 				AAFA68581BBDB290009BD1BD /* SocialItemCell.swift in Sources */,
 				AAFA68561BBDA9E0009BD1BD /* MenuViewController.swift in Sources */,

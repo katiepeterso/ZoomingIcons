@@ -82,7 +82,8 @@ class MenuViewController: UICollectionViewController {
         
         let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("DetailViewController") as! DetailViewController
         controller.detailSocialItem = socialItems[(indexPath.row + 2*indexPath.section)]
-        showViewController(controller, sender: self)
+        
+        navigationController?.pushViewController(controller, animated: true)
     }
 
     /*
