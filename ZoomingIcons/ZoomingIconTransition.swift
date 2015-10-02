@@ -8,6 +8,12 @@
 
 import UIKit
 
+protocol ZoomingIconTransitionDelegate {
+    
+    func zoomingIconColoredViewForTransition(transition: ZoomingIconTransition) -> UIView?
+    func zoomingIconImageViewForTransition(transition: ZoomingIconTransition) -> UIImageView?
+}
+
 private let kZoomingIconTransitionDuration: NSTimeInterval = 0.5
 
 class ZoomingIconTransition: NSObject, UIViewControllerAnimatedTransitioning, UINavigationControllerDelegate {
@@ -35,6 +41,12 @@ class ZoomingIconTransition: NSObject, UIViewControllerAnimatedTransitioning, UI
     }
     
     func navigationController(navigationController: UINavigationController, animationControllerForOperation operation: UINavigationControllerOperation, fromViewController fromVC: UIViewController, toViewController toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return self
+        if fromVC is ZoomingIconTransitionDelegate &&
+            toVC is ZoomingIconTransitionDelegate {
+                return self
+        }
+        else {
+            return nil
+        }
     }
 }

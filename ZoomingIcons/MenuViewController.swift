@@ -10,9 +10,10 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class MenuViewController: UICollectionViewController {
+class MenuViewController: UICollectionViewController, ZoomingIconTransitionDelegate {
     
     var socialItems = [SocialItem]()
+    var selectedIndexPath:NSIndexPath?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,16 +32,7 @@ class MenuViewController: UICollectionViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
     // MARK: UICollectionViewDataSource
 
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
@@ -82,30 +74,30 @@ class MenuViewController: UICollectionViewController {
         
         let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("DetailViewController") as! DetailViewController
         controller.detailSocialItem = socialItems[(indexPath.row + 2*indexPath.section)]
+        selectedIndexPath = indexPath
         
         navigationController?.pushViewController(controller, animated: true)
     }
-
-    /*
-    // Uncomment this method to specify if the specified item should be highlighted during tracking
-    override func collectionView(collectionView: UICollectionView, shouldHighlightItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-        return true
-    }
-    */
-
-    /*
-    // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
-    override func collectionView(collectionView: UICollectionView, shouldShowMenuForItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-        return false
-    }
-
-    override func collectionView(collectionView: UICollectionView, canPerformAction action: Selector, forItemAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) -> Bool {
-        return false
-    }
-
-    override func collectionView(collectionView: UICollectionView, performAction action: Selector, forItemAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) {
     
+    // MARK: ZoomingIconTransitionDelegate
+    
+    func zoomingIconColoredViewForTransition(transition: ZoomingIconTransition) -> UIView? {
+        if let indexPath = selectedIndexPath {
+            let cell = collectionView!.cellForItemAtIndexPath(indexPath) as! SocialItemCell
+            return cell.viewColor
+        }
+        else {
+            return nil
+        }
     }
-    */
-
+    
+    func zoomingIconImageViewForTransition(transition: ZoomingIconTransition) -> UIImageView? {
+        if let indexPath = selectedIndexPath {
+            let cell = collectionView!.cellForItemAtIndexPath(indexPath) as! SocialItemCell
+            return cell.imageView
+        }
+        else {
+            return nil
+        }
+    }
 }

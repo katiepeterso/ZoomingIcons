@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4680F79DD97A8A7F2548B5237CEEAD8147445E60",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4680F79DD97A8A7F2548B5237CEEAD8147445E60" : 0,
+    "DC22E5519872F76C77D53A43655886FBD8E7A803" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C923F04B-4345-4C97-AECF-262FBF05AEF6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4680F79DD97A8A7F2548B5237CEEAD8147445E60" : "ZoomingIcons\/",
+    "DC22E5519872F76C77D53A43655886FBD8E7A803" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZoomingIcons",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZoomingIcons.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/katiepeterso\/ZoomingIcons.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4680F79DD97A8A7F2548B5237CEEAD8147445E60"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/katiepeterso\/lighthouse.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DC22E5519872F76C77D53A43655886FBD8E7A803"
+    }
+  ]
+}

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class DetailViewController: UIViewController, ZoomingIconTransitionDelegate {
     @IBOutlet weak var detailImageView: UIImageView!
     @IBOutlet weak var detailNameLabel: UILabel!
     @IBOutlet weak var detailSummaryLabel: UILabel!
@@ -40,6 +40,16 @@ class DetailViewController: UIViewController {
     @IBAction func backToMenu(sender: UIButton) {
         navigationController?.popViewControllerAnimated(true)
     }
+    
+    // MARK: ZoomingIconTransitionDelegate
+    func zoomingIconColoredViewForTransition(transition: ZoomingIconTransition) -> UIView? {
+        return detailView
+    }
+    
+    func zoomingIconImageViewForTransition(transition: ZoomingIconTransition) -> UIImageView? {
+        return detailImageView
+    }
+
 
 }
 
